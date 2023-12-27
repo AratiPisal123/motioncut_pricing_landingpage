@@ -13,7 +13,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
+  background: linear-gradient(to right,hsl(0, 6%, 97%),hsl(265, 80%, 88%),hsl(264, 84%, 85%));
 }
 
 h1,
@@ -22,21 +22,11 @@ h3,
 h4,
 h5,
 h6 {
-  color: hsl(232, 13%, 33%);
+  color: hsl(232, 42%, 11%);
 }
 
-/* BACKGROUND */
-.background-top {
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: -10;
-}
-.background-top img {
-  height: 3000px;
-  width: 5000px;
-  max-height: 500px;
-}
+
+
 
 /*  TOGGLE BUTTON   */
 .toggle-container {
@@ -53,8 +43,8 @@ h6 {
 }
 
 .toggle p {
-  font-size: 0.9rem;
-  color: hsl(234, 14%, 74%);
+  font-size: 1.2rem;
+  color: hsl(295, 81%, 15%);
 }
 
 .toggle-box {
@@ -79,7 +69,7 @@ h6 {
   right: 0;
   bottom: 0;
   border-radius: 50px;
-  background: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+  background: linear-gradient(to right, hsl(304, 41%, 69%), hsl(305, 16%, 48%));
   transition: 0.3s;
 }
 .slider:hover {
@@ -94,7 +84,7 @@ h6 {
   left: 4px;
   bottom: 4px;
   border-radius: 50%;
-  background-color: white;
+  background-color: rgb(253, 251, 251);
   transition: 0.3s;
 }
 input:checked + .slider:before {
@@ -121,7 +111,7 @@ input:checked + .slider:before {
 }
 
 .card {
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 1.2em 1em;
   display: flex;
   box-shadow: 0 10px 14px rgba(73, 76, 95, 0.034);
@@ -163,7 +153,7 @@ input:checked + .slider:before {
   text-transform: uppercase;
   font-size: 0.75rem;
   letter-spacing: 0.1em;
-  background: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+  background: linear-gradient(to right, hsl(299, 38%, 66%), hsl(295, 50%, 38%));
   cursor: pointer;
   outline: none;
 }
@@ -171,14 +161,14 @@ input:checked + .slider:before {
 .button:focus {
   border-color: hsl(234, 14%, 74%);
   background: #fff;
-  color: hsl(237, 63%, 64%);
+  color: hsl(284, 63%, 31%);
 }
 
 .card-two {
   background: linear-gradient(
     to bottom,
-    hsl(236, 72%, 79%),
-    hsl(237, 63%, 64%)
+    hsl(236, 25%, 76%),
+    hsl(298, 70%, 23%)
   );
   color: #fff;
   z-index: 100;
@@ -191,9 +181,9 @@ input:checked + .slider:before {
 }
 
 .card-two .button {
-  border-color: hsl(234, 14%, 74%);
+  border-color: hsl(263, 80%, 22%);
   background: #fff;
-  color: hsl(237, 63%, 64%);
+  color: hsl(243, 79%, 17%);
 }
 .card-two .button:hover,
 .card-two .button:focus {
